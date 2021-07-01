@@ -1,5 +1,5 @@
 ```javascript
-//Reverse a given string
+Reverse a given string
 ```
 
 ```javascript
@@ -12,6 +12,8 @@ const reverser = (str) =>{
     }
     return s;
 }
+
+console.log(reverser("almond")); // dnomla
 ```
 
 ```javascript
@@ -21,8 +23,6 @@ function reverse(s) {
     o += s[i];
   return o;
 }
-```
 
-```javascript
-alert(reverse("almond"))
+console.log(reverse("almond")); // dnomla
 ```
